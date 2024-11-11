@@ -1,0 +1,21 @@
+{
+  "name": "adonis-app",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.33.22",
+    "hono": "^4.6.9",
+    "playwright": "^1.48.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/bun": "latest",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.13.0"
+  }
+}
